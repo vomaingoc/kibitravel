@@ -14,6 +14,7 @@ body {
 	
  }
  .bg{background:#CBEAFF}
+ .nobg{ background:#fff !important}
  
 header, .menu, .slider, .main, footer {
 	width: 100%;
@@ -353,6 +354,9 @@ border-radius: 3px;}
 .txt-bt.captcha{ width:60%; display:inline-block; vertical-align:top}
 .cht img{ display:inline-block; vertical-align:top; position:relative; top:4px}
 .text-bt{ font-size:1.2em; line-height:160%}
+.frm-contact{ width:50%}
+.contact map img{ max-width:100%; margin-top:20px}
+.contact address{ font-size:1.2em}
 @media (max-width:960px){
 	.tour-mt{ width:50%}
 	.col-ft{ width:40%; padding :10px;   }
