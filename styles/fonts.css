@@ -1,8 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 @font-face {
-	font-family: 'UTMCaviar';
-	src: url(../fonts/UTMCaviar.eot);
-	src: url(../fonts/UTMCaviar.eot) format('embedded-opentype'), url(../fonts/UTMCaviar.otf) format('otf'), url(../fonts/UTMCaviar.woff) format('woff'), url(../fonts/UTMCaviar.ttf) format('truetype'), url(../fonts/UTMCaviar.svg) format('svg')
+	font-family: 'BebasNeueRegular';
+	src: url(../fonts/BebasNeueRegular.eot);
+	src: url(../fonts/BebasNeueRegular.eot) format('embedded-opentype'), url(../fonts/BebasNeueRegular.otf) format('otf'), url(../fonts/BebasNeueRegular.woff) format('woff'), url(../fonts/BebasNeueRegular.ttf) format('truetype'), url(../fonts/BebasNeueRegular.svg) format('svg');
+	font-weight:400 !important
+}
+ @font-face {
+	font-family: 'GidoleRegular';
+	src: url(../fonts/GidoleRegular.eot);
+	src: url(../fonts/GidoleRegular.eot) format('embedded-opentype'), url(../fonts/GidoleRegular.otf) format('otf'), url(../fonts/GidoleRegular.woff) format('woff'), url(../fonts/GidoleRegular.ttf) format('truetype'), url(../fonts/GidoleRegular.svg) format('svg'); font-weight:400 !important
 }
  

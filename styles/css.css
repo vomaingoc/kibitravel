@@ -305,18 +305,18 @@ a:focus {
 	line-height: 1.42857143;
 	color: #fff;
 	text-decoration: none;
-	background: #00743C;
-	-webkit-border-radius: 15%;
-	-moz-border-radius: 15%;
-	border-radius: 15%;
-	border: solid 1px #037976
+	background: #3389D7;
+	-webkit-border-radius: 10%;
+	-moz-border-radius: 10%;
+	border-radius: 10%;
+	border: solid 1px #3181CB
 }
 .pagination a:hover {
 	cursor: default
 }
 .pagination a:focus, .pagination a:hover, .pagination b {
-	border: solid 1px #93B939;
-	background-color: #A2CB3A;
+	border: solid 1px #2A80B9;
+	background-color: #2A80B9;
 }
  
 .icon-r {
@@ -371,7 +371,7 @@ a:focus {
 	clear: both;
 	 
 	margin-top:10px;
-	padding-left:20px;
+	padding-left:5px;
 	border-bottom: dotted 1px #ccc;
 	padding-bottom:5px
 }
