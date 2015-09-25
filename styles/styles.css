@@ -374,6 +374,7 @@ border-radius: 3px;}
 	.photo-media img {
 	max-width: 150px;}
 	.col-nav{ margin-bottom:20px;}
+	.dt-dn{ width:99% !important}
 }
 @media (max-width:480px){.col-ft{ width:100%;}
 .photo-media img {
