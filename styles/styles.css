@@ -203,7 +203,7 @@ header { background: rgba(0,0,0,0.7); height:90px; z-index:2; position:absolute;
 }
 .date-time-news{ color:#95A4A7; }
 .detail-news { line-height:160%;}
-.detail-news img{ margin:10px 0}
+.detail-news img{ margin:10px 0; max-width:100%}
 .tt-detail-news{font-weight:normal; font-size:1.5em; margin-bottom:10px;}
 .function {
 	width: 100%;
