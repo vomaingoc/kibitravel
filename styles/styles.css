@@ -138,7 +138,7 @@ header { background: rgba(0,0,0,0.7); height:90px; z-index:2; position:absolute;
 	line-height:30px
 }
 .social a i:hover {
-	background: #fff;
+	background: #3598DC;
 }
  
 .social .facebook i{background: #3C5B9B;}
