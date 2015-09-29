@@ -304,7 +304,7 @@ color: #378BD7
 
 /*destinations-it*/
 .iblock{ margin:20px 0; width:100%; display:inline-block}
-.destinations-it{ width:33.33%; padding:25px; float:left
+.destinations-it{ width:33.33%; padding:15px; float:left
 }
 .destinations-tt{ width:100%; display:inline-block; text-align:left; padding:10px 15px; font-size:1.8em; color:#2A80B9;font-family: 'BebasNeueRegular'; text-transform:uppercase }
 .slide  .destinations-it{ width:100%;}

@@ -213,7 +213,7 @@
 	top: -15px;
 	background: url(../images/arrowr.png) center no-repeat;
 	background-color:rgba(0,0,0,0.3);
-	border-radius:3px
+	border-radius:1px
 }
 .slide-news  .bx-wrapper .bx-prev {
 	left: auto !important;
@@ -223,5 +223,5 @@
 	width: 25px;
 	height: 25px;
 	background-color:rgba(0,0,0,0.3);
-	border-radius:3px
+	border-radius:1px
 }
