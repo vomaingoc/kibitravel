@@ -67,7 +67,8 @@ $(function () {
 
 $(function () {
 	//$( ".navy >ul > li" ).prepend("<i class='fa fa-caret-right'></i>");
-	//$( ".detail-destination .navy ul li" ).prepend("<i class='fa fa-bookmark'></i>");  
+	//$( ".detail-destination .navy ul li" ).prepend("<i class='fa fa-bookmark'></i>");
+	$( ".navx>ul> li:last-child>a").attr("href", "blog.htm");
 });
  
  

@@ -10,9 +10,10 @@
 /*=======================*/
 body {
 text-align: center;
-font-family: 'GidoleRegular';
+font-family: 'OpenSans';
 
 }
+body b, body strong{font-family: 'OpenSans-Bold';}
 .bg{background:#CBEAFF}
 .nobg{ background:#fff !important}
 
@@ -25,6 +26,10 @@ text-align: left;
 display: inline-block;
 
 }
+.btn-bt{ padding:7px 20px; background:url(../images/bg-btn.png) right no-repeat; background-color:#3598DC; display:inline-block; margin-right:10px; background-size:auto 90%; border-bottom:solid 3px #2A80B9; color:#fff; font-family:"Comic Sans MS", cursive; font-size:1.1em; padding-right:30px; -webkit-border-radius: 3px;
+border-radius: 3px;}
+.btn-bt:hover{ background-color:#19BD9B; border-color:#17A086; color:#fff}
+.iblock{ margin-top:20px; margin-bottom:20px; width:100%; display:inline-block}
 .main .container  {background:#fff}
 .top .container{ position:relative; text-align:right}
 .top{background:rgba(0,0,0,0.5); padding:7px 0; z-index:2; position:absolute; top:0px; color:#BAB9B9; width:100%; height:30px}
@@ -57,7 +62,7 @@ position:absolute; right:30px; top:40%; font-size:1.1em; padding-right:25px  }
 .btn-mn:hover{ color:#fff; background-color:#19BD9B; border-color:#17A086}
 /*hot tour*/
 .hot-tour{ position:relative; margin:15px 0;}
-.tt-ht{ position:absolute; right:-18px; top:20px; z-index:3; text-align:right }
+.tt-ht{ position:absolute; right:-18px; top:20px; z-index:3; text-align:right;  }
 .slide-ht{ position:relative; z-index:2}
 .tt-ht .tt{background:#E84C3D; padding:10px 20px; color:#fff; clear:both; display:inline-block; width:100%; font-size:2em; font-family:"BebasNeueRegular" ; text-align:center }
 .caret-ht{ width:0; height:0; border-color:#000; width: 0px;
@@ -68,9 +73,9 @@ float: right;
 border-right-color: transparent; clear:both}
 /*most tour*/
 .most-tour{ width:100%; display:inline-block; margin-bottom:20px}
-.tt-mt{ height:1px; background:#2A80B9; text-align:center; margin:40px 0; position:relative; width:100%;font-family: 'BebasNeueRegular';}
-.mt-s{   color:#000; background:#fff; padding:5px;display:inline-block; margin-top:-30px;}
-.mt-s b{ padding:5px 30px; display:inline-block; font-size:2em; font-weight:normal; background:#3598DC; color:#fff; border-bottom: solid 2px #2A80B9 }
+.tt-mt{ height:1px; background:#2A80B9; text-align:center; margin:40px 0; position:relative; width:100%;font-family:'BebasNeueRegular';}
+.mt-s{   color:#000; background:#fff; padding:5px;display:inline-block; margin-top:-30px;  }
+.mt-s b{ padding:5px 30px; display:inline-block; font-size:2.3em; font-weight:normal; background:#3598DC; color:#fff; border-bottom: solid 2px #2A80B9;font-family:'BebasNeueRegular';  }
 .view-all-lst{ text-align:center; margin:10px;}
 .view-all-lst a{ color:#2A80B9}
 .view-all-lst a:hover{ color:#3598DC}
@@ -123,13 +128,13 @@ margin-bottom:7px
 .fbs{ width:100%; display:inline-block; clear:both}
 .f-right{ float:right; padding:0}
 
-.social a i {
+.social  i {
 border: solid 0px #fff;
 -webkit-border-radius: 50%;
 border-radius: 50%;
 width: 30px;
 height: 30px;
-background: #9CB98E;
+ 
 color: #fff;
 
 text-align: center;
@@ -137,17 +142,32 @@ text-align: center;
 font-size: 18px;
 line-height:30px
 }
+
+.social-blog{ text-align:right; margin:10px; display:inline-block; padding:2%; float:right; position:absolute; right:1%; bottom:1%}
+.social-blog  i {
+border: solid 0px #fff;
+-webkit-border-radius: 10%;
+border-radius: 10%;
+width: 30px;
+height: 30px;
+ 
+color: #fff;
+
+text-align: center;
+
+font-size: 18px;
+line-height:30px;
+margin-right:5px
+}
+ .facebook i{background: #3C5B9B;}
+ .twitter i{background: #2CA9E0;}
+
+ .google-plus i{background: #BF3A2B;}
+ .youtube i{background: #BF3A2B;}
+
 .social a i:hover {
 background: #3598DC;
 }
-
-.social .facebook i{background: #3C5B9B;}
-.social .twitter i{background: #2CA9E0;}
-
-.social .google-plus i{background: #BF3A2B;}
-.social .youtube i{background: #BF3A2B;}
-
-
 /*section2*/
 .section2 { background:#F9F9F9; border-top: solid 1px #EBEBEB;  border-bottom: solid 1px #EBEBEB; width:100%; display:inline-block; margin:25px 0; padding:20px 0;}
 .col-sp{ text-align:left; padding-left:15px;}
@@ -202,7 +222,7 @@ width: 100%
 margin-bottom: 10px;
 }
 .date-time-news{ color:#95A4A7; }
-.detail-news { line-height:160%; font-family:Arial, Helvetica, sans-serif; font-size:1.1em}
+.detail-news { line-height:160%; font-family: 'OpenSans'; font-size:1.1em}
 .detail-news img{ margin:10px 0; max-width:100%; border: solid 5px #fafafa}
 .tt-detail-news{font-weight:normal; font-size:1.5em; margin-bottom:10px;}
 .detail-news p{ margin:7px 0}
@@ -230,6 +250,46 @@ margin-right: 10px;
 margin-right: 5px
 }
 /*===========================media*/
+
+/*===========================media-blog*/ 
+.media-blog {
+width: 100%;
+display: inline-block;
+padding: 13px;
+border: solid 7px #EAEAEA; position:relative;
+margin-bottom:10px;
+}
+.tt-media-blog {
+font-size: 1.2em;
+color: #003D69;
+font-weight:normal;
+font-family: 'OpenSans-Bold';
+}
+.tt-media-blog a:hover{ color:#17A086}
+.tt-detail-blog{font-size: 1.4em;
+color: #17A086;
+font-weight:normal;
+font-family: 'OpenSans-Bold'; width:100%; text-align:left; margin:10px 0}
+.date-time-news-blog{ margin:10px 0; color:#19BD9B; font-size:11px}
+.text-media-blog{ }
+.photo-media-blog img {
+max-width: 350px;
+margin-right: 15px;
+float: left;
+ 
+}
+.search-blog{text-align:left; width:100%; display:inline-block}
+.txt-media-blog{}
+.detail-news-blog{ float:right; font-size:25px; padding:3%;}
+.detail-news-blog:hover{color:#19BD9B}
+.slt-blog{ height:25px; border: solid 0px #929497; background:#F7F7F7;  width:160px; margin-bottom:10px; outline:none; box-shadow: inset 1px 1px #929497}
+.btn-search-blog{ padding:2px 15px; }
+.detail-blog{ text-align:center }
+.inner-detail-blog{width:80%; margin-left:auto; margin-right:auto; display:inline-block; text-align:left; position:relative; padding-bottom:10%}
+.img-detail-bolg img{ max-width:70%;}
+.img-detail-bolg{ background:#333233;  margin-bottom:10px; width:100%;display:inline-block; text-align:center;}
+.inner-detail-blog p{ margin:10px 0; text-align:justify}
+/*===========================media-blog*/ 
 
 /*project*/
 .slide-news {
@@ -303,7 +363,7 @@ color: #378BD7
 /*===============================end tim kiem*/
 
 /*destinations-it*/
-.iblock{ margin:20px 0; width:100%; display:inline-block}
+
 .destinations-it{ width:33.33%; padding:15px; float:left
 }
 .destinations-tt{ width:100%; display:inline-block; text-align:left; padding:10px 15px; font-size:1.8em; color:#2A80B9;font-family: 'BebasNeueRegular'; text-transform:uppercase }
@@ -368,10 +428,8 @@ box-shadow: inset 3px 3px #2A80B9;}
 .frm-book-tour{ width:100%; padding:15px 15%;}
 .frm-book-tour p{ margin:10px 0}
 textarea.txt-bt{ min-height:100px; resize:vertical;}
-.btn-mn{ background-image: url(../images/bg-btn.png); background-position:right; background-repeat:no-repeat; background-size:auto 90%; }
-.btn-bt{ padding:7px 20px; background:url(../images/bg-btn.png) right no-repeat; background-color:#3598DC; display:inline-block; margin-right:10px; background-size:auto 90%; border-bottom:solid 3px #2A80B9; color:#fff; font-family:"Comic Sans MS", cursive; font-size:1.1em; padding-right:30px; -webkit-border-radius: 3px;
-border-radius: 3px;}
-.btn-bt:hover{ background-color:#19BD9B; border-color:#17A086; color:#fff}
+.btn-mn{ background-image: url(../images/bg-btn.png); background-position:right; background-repeat:no-repeat; background-size:auto 90%;  }
+
 .txt-bt.captcha{ width:60%; display:inline-block; vertical-align:top}
 .cht img{ display:inline-block; vertical-align:top; position:relative; top:4px}
 .text-bt{ font-size:1.2em; line-height:160%}

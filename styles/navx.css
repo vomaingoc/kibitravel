@@ -119,13 +119,11 @@
 }
 @media screen and (min-width: 768px) {
 .navx {
-	 
 	height: 90px;
 }
 .navx>ul>li>a {
 	line-height: 90px;
 	font-size: 14px;
-	font-weight: bold;
 }
 }
 @media screen and (max-width: 768px) {
@@ -226,7 +224,6 @@
 }
 #btnClose span {
 	color: #3294B9;
-	font-weight: bold;
 	margin-left: 5px;
 	margin-bottom: 5px;
 	font-size: 1em;
