@@ -289,6 +289,17 @@ float: left;
 .img-detail-bolg img{ max-width:70%;}
 .img-detail-bolg{ background:#333233;  margin-bottom:10px; width:100%;display:inline-block; text-align:center;}
 .inner-detail-blog p{ margin:10px 0; text-align:justify}
+.slide-blog .photo-media-blog img {
+max-width: 100%;
+margin-right: 15px;
+float: left;
+margin-bottom:10px
+ 
+}
+.slide-blog .tt-media-blog {
+font-size: 1em;
+}
+.slide-blog .media-blog{ height:430px; border-width:5px}
 /*===========================media-blog*/ 
 
 /*project*/
