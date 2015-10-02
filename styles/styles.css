@@ -84,7 +84,7 @@ border-right-color: transparent; clear:both}
 .img-mt{ position:relative}
 .tour-mt .img-mt img{ width:100%; position:relative; z-index:2;}
 .des-mt{ position:absolute; bottom:0px ;left:0; width:100%; padding:10px; z-index:3}
-.des-mt p{ display:inline-block; padding:7px  20px; background: rgba(0,0,0,0.6); color:#fff; }
+.des-mt p{ display:inline-block; padding:7px  20px; background: rgba(0,0,0,0.6); color:#fff; width:100% }
 .price-mt{ float:right; color:#3598DC; font-family:'BebasNeueRegular'; padding-left:20px}
 .price-mt:hover{ color:#BEC3C7}
 
@@ -469,6 +469,16 @@ box-shadow:inset 0 0 36px 0 rgba(53,152,220,0.5);*/ border-color:rgba(53,152,220
 .btn-deal{ margin-top:20px;}
 .btn-deal a{ padding:5px 15px; background:#E84C3D; color:#fff}
 .btn-deal a:hover{ background:#BF3A2B}
+/*.list-deals*/
+.list-deals .price-mt{ color:#03C9FF; font-size:1.2em; font-family: 'OpenSans-Bold';}
+.list-deals .img-mt:hover .des-mt p{background: rgba(0,0,0,0.8);}
+.list-deals .des-mt p{padding: 7px 10px; font-size:1.3em}
+.list-deals .tour-mt{ padding:20px; width:50%}
+.list-deals .img-mt img{ border: solid 5px #ddd}
+.list-deals .more-mt{ right:11px; font-size:1.3em; text-align:center}
+.list-deals .caret-mt{ border-color:#ccc; border-right-color: transparent}
+.inner-view{ padding:10px 30px; text-align:justify; line-height:180%}
+h1.tt-detail-deals{ font-size:1.5em}
 @media (max-width:960px){
 .tour-mt{ width:50%}
 .col-ft{ width:40%; padding :10px;   }
